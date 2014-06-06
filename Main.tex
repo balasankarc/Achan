@@ -1,0 +1,45 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[top=1in,bottom=1in]{geometry}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\setdefaultlanguage{malayalam}
+\setmainfont[Script=Malayalam, HyphenChar="0000]{Rachana}
+\lefthyphenmin=3
+\righthyphenmin=4
+\title{\fontsize{40pt}{1em}\selectfont ലേഖനങ്ങളും കവിതകളും}
+\author{\fontsize{20pt}{1em}\selectfont പ്രൊഫ. സി വി ശങ്കരൻ}
+\date{}
+\newcommand{\sectionbreak}{\clearpage}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cfttoctitlefont}{\hfil \Huge\vspace{1em}}
+\titleformat{\section}[hang]
+  {\centering\LARGE}
+  {\thesection}
+  {10pt}
+  {}
+\titlespacing*{\section}{0cm}{0pt}{12pt}[0pt]
+\begin{document}
+\maketitle
+\pagenumbering{gobble}
+\newpage
+\tableofcontents
+\pagenumbering{gobble}
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\include{Sections/Appu.tex}
+\input{Sections/Appu.tex}
+\include{Sections/Sachin.tex}
+\input{Sections/Sachin.tex}
+\end{document}
