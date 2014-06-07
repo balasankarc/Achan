@@ -1,0 +1,9 @@
+\select@language {malayalam}
+\contentsline {section}{\numberline {1}അപ്പുവിന്റെ അത്ഭുതം}{1}{section.1}
+\contentsline {section}{\numberline {2}അസുരൻ}{3}{section.2}
+\contentsline {section}{\numberline {3}ഒരു ബാക്ക്ബെഞ്ച് വിചാരം}{5}{section.3}
+\contentsline {section}{\numberline {4}ബിരുദം കെമിസ്ട്രി}{6}{section.4}
+\contentsline {section}{\numberline {5}ചൊല്ലുവിളി}{8}{section.5}
+\contentsline {section}{\numberline {6}എവിടെ ജോൺ?}{10}{section.6}
+\contentsline {section}{\numberline {7}വിൽസ് കപ്പ്}{11}{section.7}
+\contentsline {section}{\numberline {8}ക്രിക്കറ്റിന്റെ ഇതിഹാസം}{12}{section.8}
