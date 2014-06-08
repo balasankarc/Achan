@@ -6,4 +6,5 @@
 \contentsline {section}{\numberline {5}ചൊല്ലുവിളി}{8}{section.5}
 \contentsline {section}{\numberline {6}എവിടെ ജോൺ?}{10}{section.6}
 \contentsline {section}{\numberline {7}വിൽസ് കപ്പ്}{11}{section.7}
-\contentsline {section}{\numberline {8}ക്രിക്കറ്റിന്റെ ഇതിഹാസം}{12}{section.8}
+\contentsline {section}{\numberline {8}ധർമ്മകാഹളം}{12}{section.8}
+\contentsline {section}{\numberline {9}ക്രിക്കറ്റിന്റെ ഇതിഹാസം}{14}{section.9}
