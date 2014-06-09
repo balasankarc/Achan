@@ -4,7 +4,8 @@
 \contentsline {section}{\numberline {3}ഒരു ബാക്ക്ബെഞ്ച് വിചാരം}{5}{section.3}
 \contentsline {section}{\numberline {4}ബിരുദം കെമിസ്ട്രി}{6}{section.4}
 \contentsline {section}{\numberline {5}ചൊല്ലുവിളി}{8}{section.5}
-\contentsline {section}{\numberline {6}എവിടെ ജോൺ?}{10}{section.6}
-\contentsline {section}{\numberline {7}വിൽസ് കപ്പ്}{11}{section.7}
-\contentsline {section}{\numberline {8}ധർമ്മകാഹളം}{12}{section.8}
-\contentsline {section}{\numberline {9}ക്രിക്കറ്റിന്റെ ഇതിഹാസം}{14}{section.9}
+\contentsline {section}{\numberline {6}കുട്ടിത്താരാട്ട്}{10}{section.6}
+\contentsline {section}{\numberline {7}എവിടെ ജോൺ?}{11}{section.7}
+\contentsline {section}{\numberline {8}വിൽസ് കപ്പ്}{12}{section.8}
+\contentsline {section}{\numberline {9}ധർമ്മകാഹളം}{13}{section.9}
+\contentsline {section}{\numberline {10}ക്രിക്കറ്റിന്റെ ഇതിഹാസം}{15}{section.10}
