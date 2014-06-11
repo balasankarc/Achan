@@ -5,8 +5,9 @@
 \contentsline {section}{\numberline {4}ബിരുദം കെമിസ്ട്രി}{6}{section.4}
 \contentsline {section}{\numberline {5}ചൊല്ലുവിളി}{8}{section.5}
 \contentsline {section}{\numberline {6}തല പോയ തോട്ടക്കാരൻ}{10}{section.6}
-\contentsline {section}{\numberline {7}കുട്ടിത്താരാട്ട്}{11}{section.7}
-\contentsline {section}{\numberline {8}എവിടെ ജോൺ?}{12}{section.8}
-\contentsline {section}{\numberline {9}വിൽസ് കപ്പ്}{13}{section.9}
-\contentsline {section}{\numberline {10}ധർമ്മകാഹളം}{14}{section.10}
-\contentsline {section}{\numberline {11}ക്രിക്കറ്റിന്റെ ഇതിഹാസം}{16}{section.11}
+\contentsline {section}{\numberline {7}അടുക്കളനൃത്തത്തിനു ഒരു പാട്ട്}{11}{section.7}
+\contentsline {section}{\numberline {8}കുട്ടിത്താരാട്ട്}{13}{section.8}
+\contentsline {section}{\numberline {9}എവിടെ ജോൺ?}{14}{section.9}
+\contentsline {section}{\numberline {10}വിൽസ് കപ്പ്}{15}{section.10}
+\contentsline {section}{\numberline {11}ധർമ്മകാഹളം}{16}{section.11}
+\contentsline {section}{\numberline {12}ക്രിക്കറ്റിന്റെ ഇതിഹാസം}{18}{section.12}
