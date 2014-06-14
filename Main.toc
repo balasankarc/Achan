@@ -2,12 +2,12 @@
 \contentsline {chapter}{\numberline {1}അപ്പുവിന്റെ അത്ഭുതം}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}അസുരൻ}{3}{chapter.2}
 \contentsline {chapter}{\numberline {3}ഒരു ബാക്ക്ബെഞ്ച് വിചാരം}{5}{chapter.3}
-\contentsline {chapter}{\numberline {4}ബിരുദം കെമിസ്ട്രി}{7}{chapter.4}
-\contentsline {chapter}{\numberline {5}ചൊല്ലുവിളി}{9}{chapter.5}
-\contentsline {chapter}{\numberline {6}തല പോയ തോട്ടക്കാരൻ}{11}{chapter.6}
-\contentsline {chapter}{\numberline {7}അടുക്കളനൃത്തത്തിനു ഒരു പാട്ട്}{13}{chapter.7}
-\contentsline {chapter}{\numberline {8}കുട്ടിത്താരാട്ട്}{15}{chapter.8}
-\contentsline {chapter}{\numberline {9}എവിടെ ജോൺ?}{17}{chapter.9}
-\contentsline {chapter}{\numberline {10}വിൽസ് കപ്പ്}{19}{chapter.10}
-\contentsline {chapter}{\numberline {11}ധർമ്മകാഹളം}{21}{chapter.11}
-\contentsline {chapter}{\numberline {12}ക്രിക്കറ്റിന്റെ ഇതിഹാസം}{23}{chapter.12}
+\contentsline {chapter}{\numberline {4}ബിരുദം കെമിസ്ട്രി}{6}{chapter.4}
+\contentsline {chapter}{\numberline {5}ചൊല്ലുവിളി}{8}{chapter.5}
+\contentsline {chapter}{\numberline {6}തല പോയ തോട്ടക്കാരൻ}{10}{chapter.6}
+\contentsline {chapter}{\numberline {7}അടുക്കളനൃത്തത്തിനു ഒരു പാട്ട്}{11}{chapter.7}
+\contentsline {chapter}{\numberline {8}കുട്ടിത്താരാട്ട്}{13}{chapter.8}
+\contentsline {chapter}{\numberline {9}എവിടെ ജോൺ?}{14}{chapter.9}
+\contentsline {chapter}{\numberline {10}വിൽസ് കപ്പ്}{16}{chapter.10}
+\contentsline {chapter}{\numberline {11}ധർമ്മകാഹളം}{17}{chapter.11}
+\contentsline {chapter}{\numberline {12}ക്രിക്കറ്റിന്റെ ഇതിഹാസം}{19}{chapter.12}

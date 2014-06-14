@@ -4,8 +4,8 @@
 \usepackage{polyglossia}
 \usepackage{hyperref}
 \usepackage{titlesec}
-\usepackage{titlesec}
 \usepackage{tocloft}
+\usepackage{fancyhdr}
 \setdefaultlanguage{malayalam}
 \setmainfont[Script=Malayalam, HyphenChar="0000]{Rachana}
 \lefthyphenmin=3
@@ -29,16 +29,32 @@
   {10pt}
   {}
 \titlespacing*{\chapter}{0cm}{0pt}{12pt}[0pt]
-\begin{document}
+%\usepackage{afterpage}
 
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+\let\cleardoublepage\clearpage
+\begin{document}
 \maketitle
+\newpage\null\thispagestyle{empty}\newpage
 \pagenumbering{gobble}
-\newpage
 \tableofcontents
+\newpage\null\thispagestyle{empty}\newpage
 \pagenumbering{gobble}
 \newpage
 \pagenumbering{arabic}
+\lfoot{}
+\rfoot{}
+\cfoot{\thepage}
 \setcounter{page}{1}
+\lhead{}
+\chead{}
+\rhead{സി വി ശങ്കരന്റെ ലേഖനങ്ങൾ }
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
 \include{Chapters/Appu.tex}
 \input{Chapters/Appu.tex}
 \include{Chapters/Asuran.tex}
