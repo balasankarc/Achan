@@ -8,6 +8,6 @@
 \contentsline {chapter}{\numberline {7}അടുക്കളനൃത്തത്തിനു ഒരു പാട്ട്}{11}{chapter.7}
 \contentsline {chapter}{\numberline {8}കുട്ടിത്താരാട്ട്}{13}{chapter.8}
 \contentsline {chapter}{\numberline {9}എവിടെ ജോൺ?}{14}{chapter.9}
-\contentsline {chapter}{\numberline {10}വിൽസ് കപ്പ്}{16}{chapter.10}
-\contentsline {chapter}{\numberline {11}ധർമ്മകാഹളം}{17}{chapter.11}
-\contentsline {chapter}{\numberline {12}ക്രിക്കറ്റിന്റെ ഇതിഹാസം}{19}{chapter.12}
+\contentsline {chapter}{\numberline {10}വിൽസ് കപ്പ്}{15}{chapter.10}
+\contentsline {chapter}{\numberline {11}ധർമ്മകാഹളം}{16}{chapter.11}
+\contentsline {chapter}{\numberline {12}ക്രിക്കറ്റിന്റെ ഇതിഹാസം}{18}{chapter.12}

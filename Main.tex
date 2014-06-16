@@ -1,4 +1,5 @@
 \documentclass[12pt,a4paper]{book}
+
 \usepackage[top=1in,bottom=1in]{geometry}
 \usepackage{fontspec}
 \usepackage{polyglossia}
@@ -6,12 +7,13 @@
 \usepackage{titlesec}
 \usepackage{tocloft}
 \usepackage{fancyhdr}
+\usepackage[usenames,dvipsnames]{color}
 \setdefaultlanguage{malayalam}
 \setmainfont[Script=Malayalam, HyphenChar="0000]{Rachana}
 \lefthyphenmin=3
 \righthyphenmin=4
-\title{\fontsize{40pt}{1em}\selectfont ലേഖനങ്ങൾ}
-\author{\fontsize{20pt}{1em}\selectfont പ്രൊഫ. സി വി ശങ്കരൻ}
+\title{\fontsize{40pt}{1em}\selectfont \color{white}ലേഖനങ്ങളും കവിതകളും}
+\author{\fontsize{20pt}{1em}\selectfont \color{white} പ്രൊഫ. സി വി ശങ്കരൻ}
 \date{}
 \newcommand{\sectionbreak}{\clearpage}
 
@@ -35,9 +37,21 @@
 \titlespacing*{\chapter}{0cm}{0pt}{12pt}[0pt]
 
 \let\cleardoublepage\clearpage %Book class begins new chapter in odd pages only - Removing that
+\savegeometry{origin}
+\geometry{rmargin=2cm,lmargin=2cm}
 \begin{document}
+\pagecolor{Maroon}
 \maketitle
-\newpage\null\thispagestyle{empty}\newpage %Blank Page
+\loadgeometry{origin}
+\pagecolor{white}
+\newpage
+\vspace*{\fill}
+\noindent
+\parbox{10cm}{
+ഈ പുസ്തകത്തിന്റെ ഡിജിറ്റൽ രൂപം \LaTeX എന്ന ടൈപ്‌സെറ്റിങ്ങ് സോഫ്റ്റ്‌വെയർ ഉപയോഗിച്ച് ഗ്നു/ലിനക്സ് ഓപ്പറേറ്റിങ്ങ് സിസ്റ്റത്തിൽ പ്രവർത്തിക്കുന്ന ഒരു കമ്പ്യൂട്ടറിൽ നിർമ്മിച്ചതാണ്. ഈ പുസ്തകം ക്രിയേറ്റീവ് കോമൺസ് ബൈ ഷെയർ എലൈക് അനുമതിയിൽ പ്രസിദ്ധീകരിച്ചിരിക്കുന്നു.}
+\pagenumbering{gobble}
+\newpage
+%\newpage\null\thispagestyle{empty}\newpage %Blank Page
 \pagenumbering{gobble}
 \tableofcontents
 \newpage\null\thispagestyle{empty}\newpage %Blank Page
@@ -79,4 +93,7 @@
 \input{Chapters/dharma.tex}
 \include{Chapters/Sachin.tex}
 \input{Chapters/Sachin.tex}
+\newpage
+\pagecolor{Maroon}
+\newpage\null\thispagestyle{empty}\newpage %Blank Page
 \end{document}
