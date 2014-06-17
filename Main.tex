@@ -16,6 +16,11 @@
 \author{\fontsize{20pt}{1em}\selectfont \color{white} പ്രൊഫ. സി വി ശങ്കരൻ}
 \date{}
 \newcommand{\sectionbreak}{\clearpage}
+\newcommand*\cleartoleftpage{%
+  \clearpage
+  \ifodd\value{page}\hbox{}\newpage\fi
+}
+
 
 %= = = = = Formatting Hyperlinks in TOC = = = = =%
 \hypersetup{
@@ -53,13 +58,14 @@
 \newpage
 %\newpage\null\thispagestyle{empty}\newpage %Blank Page
 \pagenumbering{gobble}
+\cleartoleftpage
 \tableofcontents
-\newpage\null\thispagestyle{empty}\newpage %Blank Page
+\newpage\null\thispagestyle{empty} %Blank Page
 \pagenumbering{gobble}
-\newpage
 \pagenumbering{arabic}
 \setcounter{page}{1} %Begin Page Numbering
 %= = = = = Formatting header and Footer = = = = =%
+\cleartoleftpage
 \lfoot{}
 \rfoot{}
 \cfoot{\thepage} %Page Number
@@ -69,10 +75,13 @@
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
 %= = = = = Including Individual Chapters = = = = =%
+
 \include{Chapters/Appu.tex}
 \input{Chapters/Appu.tex}
 \include{Chapters/Asuran.tex}
 \input{Chapters/Asuran.tex}
+\include{Chapters/marathaka.tex}
+\input{Chapters/marathaka.tex}
 \include{Chapters/Backbench.tex}
 \input{Chapters/Backbench.tex}
 \include{Chapters/birudam.tex}
