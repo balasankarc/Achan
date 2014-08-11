@@ -9,6 +9,8 @@
 \usepackage{tocloft}
 \usepackage{setspace}
 \usepackage{nonumonpart}
+\usepackage{graphicx}
+\usepackage{wrapfig}
 \usepackage[usenames,dvipsnames]{color}
 \setdefaultlanguage{malayalam}
 \setmainfont[Script=Malayalam, HyphenChar="0000]{Rachana}
@@ -21,10 +23,10 @@
 %= = = = = Formatting Hyperlinks in TOC = = = = =%
 \hypersetup{
     colorlinks,
-    citecolor=black,
-    filecolor=black,
-    linkcolor=black,
-    urlcolor=black
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
 }
 
 %= = = = = Dots in TOC = = = = =%
@@ -49,7 +51,8 @@
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{1pt}
 \renewcommand{\footrulewidth}{1pt}
-
+\usepackage{enumitem}
+\usepackage{booktabs}
 %= = = = = Document Begins = = = = =%
 \begin{document}
 \pagecolor{Maroon}
@@ -59,10 +62,49 @@
 \newpage
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-\vspace*{\fill}
+%------------------------------------------
+\begin{table}[h!]
+
+     \begin{tabular}{ c  p{.8\textwidth}}
+     \raisebox{-.9\totalheight}{\includegraphics{image}}
+      & 
+      \parbox[t]{.8\textwidth}{\fontsize{25pt}{1em}{\selectfont സി വി ശങ്കരൻ}\\ 1956 ഡിസംബർ മാസത്തിൽ കോട്ടയം ജില്ലയിലെ കല്ലറ പെരുന്തുരുത്ത് കരയിൽ ചേലമറ്റത്തില്ലത്തു് ശ്രീ. വാസുദേവൻ ഇളയതിന്റേയും, ശ്രീമതി. സാവിത്രി അന്തർജനത്തിന്റേയും മൂന്നു് മക്കളിൽ രണ്ടാമനായി ജനിച്ചു. കല്ലറ മാണിക്യവിലാസം ഹയർ സെക്കൻഡറി സ്കൂളിലുമായി സ്കൂൾ വിദ്യാഭ്യാസം പൂർത്തിയാക്കി. കുറവിലങ്ങാട് എസ്‌ബി കോളേജിൽ നിന്നും രസതന്ത്രത്തിൽ ബിരുദവും, കോട്ടയം സിഎംഎസ് കോളേജിൽ നിന്ന് ബിരുദാനന്തരബിരുദവും കരസ്ഥമാക്കിയശേഷം പെരുമ്പാവൂർ വളയഞ്ചിറങ്ങര ശ്രീശങ്കര വിദ്യാപീഠം കോളേജിൽ രസതന്ത്ര വിഭാഗത്തിൽ അദ്ധ്യാപകനായി പ്രവേശിച്ചു. 2013 ജനുവരിയിൽ അവിടെനിന്നും പ്രൊഫസറായി വിരമിച്ചു.}
+      
+      \end{tabular}
+      \end{table}
+\noindent
+ഭാര്യ : 
+
+എൻ പ്രസന്നകുമാരി (റിട്ടയേഡ് പ്രൊഫസർ, ശ്രീ ശങ്കര കോളേജ്, കാലടി)\\
+മക്കൾ : 
+
+മനുശങ്കർ സി (അസി. പ്രൊഫസർ, ശ്രീ ശങ്കരവിദ്യാപീഠം കോളേജ്, വളയഞ്ചിറങ്ങര)
+
+ബാലശങ്കർ സി (എംടെക് വിദ്യാർത്ഥി, ആദിശങ്കര എഞ്ചിനീയറിങ്ങ് കോളേജ്, കാലടി)
+\noindent
+മരുമക്കൾ ;
+
+ശ്രീദേവി കേശവൻ (ബാങ്ക് ഓഫ് ഇന്ത്യ, കുറുപ്പും‌പടി, പെരുമ്പാവൂർ)
+\\
+\\
+\textbf{\underline{വിലാസം}} : \\
+ചേലമറ്റത്തില്ലം\\
+മറ്റൂർ, കാലടി പി.ഓ\\
+എറണാകുളം - 683574\\
+ഈമെയിൽ : \href{mailto:cvsankaran@gmail.com}{cvsankaran@gmail.com}
+           
+             %------------------------------------------
+\vfill
 \noindent
 ഈ പുസ്തകത്തിന്റെ ഡിജിറ്റൽ രൂപം \LaTeX എന്ന ടൈപ്‌സെറ്റിങ്ങ് സോഫ്റ്റ്‌വെയർ ഉപയോഗിച്ച് ഗ്നു/ലിനക്സ് ഓപ്പറേറ്റിങ്ങ് സിസ്റ്റത്തിൽ പ്രവർത്തിക്കുന്ന ഒരു കമ്പ്യൂട്ടറിൽ നിർമ്മിച്ചതാണ്. മലയാളം ലിപി ടൈപ്പ് ചെയ്യാനായി ഉപയോഗിച്ചിരിക്കുന്നത് രചന എന്ന ഫോണ്ടാണ്. ഈ പുസ്തകം ക്രിയേറ്റീവ് കോമൺസ് ബൈ ഷെയർ എലൈക് അനുമതിയിൽ പ്രസിദ്ധീകരിച്ചിരിക്കുന്നു.
 \pagenumbering{gobble}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
 \newpage
 \tableofcontents
 \newpage
