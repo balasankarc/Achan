@@ -1,5 +1,4 @@
 \documentclass[12pt,a4paper]{book}
-
 \usepackage[top=1in,bottom=1in]{geometry}
 \usepackage{fontspec}
 \usepackage{polyglossia}
@@ -7,6 +6,7 @@
 \usepackage{titlesec}
 \usepackage{tocloft}
 \usepackage{fancyhdr}
+\usepackage{setspace}
 \usepackage[usenames,dvipsnames]{color}
 \setdefaultlanguage{malayalam}
 \setmainfont[Script=Malayalam, HyphenChar="0000]{Rachana}
@@ -16,6 +16,7 @@
 \author{\fontsize{20pt}{1em}\selectfont \color{white} പ്രൊഫ. സി വി ശങ്കരൻ}
 \date{}
 \newcommand{\sectionbreak}{\clearpage}
+%= = = = = Macro to force content to a page on the left side = = = = =%
 \newcommand*\cleartoleftpage{%
   \clearpage
   \ifodd\value{page}\hbox{}\newpage\fi
@@ -39,35 +40,35 @@
   {10pt}
   {}
 \titlespacing*{\chapter}{0cm}{0pt}{12pt}[0pt]
-
-\let\cleardoublepage\clearpage %Book class begins new chapter in odd pages only - Removing that
+\let\cleardoublepage\clearpage %Book class by default begins new chapter in odd pages only - Removing that
 \savegeometry{origin}
 \geometry{rmargin=2cm,lmargin=2cm}
 \begin{document}
 \pagecolor{Maroon}
 \maketitle
-\pagecolor{white}
+\pagenumbering{gobble}
 \newpage\null\thispagestyle{empty}\newpage %Blank Page
-\loadgeometry{origin}
+\pagecolor{white}
 \newpage
-Cover Page
+\vspace*{5cm}
+\begin{center}
+\fontsize{40pt}{1em}\selectfont ലേഖനങ്ങളും കവിതകളും
+\\
+\fontsize{20pt}{1em}\selectfont  പ്രൊഫ. സി വി ശങ്കരൻ
+\end{center}
 \pagenumbering{gobble}
 \newpage
+\loadgeometry{origin}
 \vspace*{\fill}
 \noindent
 \parbox{10.5cm}{
 ഈ പുസ്തകത്തിന്റെ ഡിജിറ്റൽ രൂപം \LaTeX എന്ന ടൈപ്‌സെറ്റിങ്ങ് സോഫ്റ്റ്‌വെയർ ഉപയോഗിച്ച് ഗ്നു/ലിനക്സ് ഓപ്പറേറ്റിങ്ങ് സിസ്റ്റത്തിൽ പ്രവർത്തിക്കുന്ന ഒരു കമ്പ്യൂട്ടറിൽ നിർമ്മിച്ചതാണ്. ഈ പുസ്തകം ക്രിയേറ്റീവ് കോമൺസ് ബൈ ഷെയർ എലൈക് അനുമതിയിൽ പ്രസിദ്ധീകരിച്ചിരിക്കുന്നു.}
 \pagenumbering{gobble}
-%\newpage\null\thispagestyle{empty}\newpage %Blank Page
-\pagenumbering{gobble}
 \cleartoleftpage
 \tableofcontents
 \newpage\null\thispagestyle{empty} %Blank Page
-\pagenumbering{gobble}
 \pagenumbering{arabic}
 %= = = = = Formatting header and Footer = = = = =%
-\cleartoleftpage
-\setcounter{page}{1} %Begin Page Numbering
 \lfoot{}
 \rfoot{}
 \cfoot{\thepage} %Page Number
@@ -75,36 +76,28 @@ Cover Page
 \chead{}
 \rhead{സി വി ശങ്കരന്റെ ലേഖനങ്ങൾ }
 \pagestyle{fancy}
+\setcounter{page}{1} %Start numbering pages
 \renewcommand{\headrulewidth}{0pt}
 %= = = = = Including Individual Chapters = = = = =%
-
-\include{Chapters/Appu.tex}
+\onehalfspacing
 \input{Chapters/Appu.tex}
-\include{Chapters/Asuran.tex}
+\input{Chapters/Etta.tex}
 \input{Chapters/Asuran.tex}
-\include{Chapters/marathaka.tex}
 \input{Chapters/marathaka.tex}
-\include{Chapters/Backbench.tex}
+\input{Chapters/ithaomthathsath.tex}
 \input{Chapters/Backbench.tex}
-\include{Chapters/birudam.tex}
 \input{Chapters/birudam.tex}
-\include{Chapters/Cholluvili.tex}
 \input{Chapters/Cholluvili.tex}
-\include{Chapters/thalapoya.tex}
 \input{Chapters/thalapoya.tex}
-\include{Chapters/adukkala.tex}
 \input{Chapters/adukkala.tex}
-\include{Chapters/kutti.tex}
 \input{Chapters/kutti.tex}
-\include{Chapters/john.tex}
 \input{Chapters/john.tex}
-\include{Chapters/willscup.tex}
 \input{Chapters/willscup.tex}
-\include{Chapters/dharma.tex}
 \input{Chapters/dharma.tex}
-\include{Chapters/Sachin.tex}
 \input{Chapters/Sachin.tex}
+\cleardoublepage
 \newpage
 \pagecolor{Maroon}
+\newpage\null\thispagestyle{empty}\newpage %Blank Page
 \newpage\null\thispagestyle{empty}\newpage %Blank Page
 \end{document}
